@@ -10,12 +10,14 @@ import Login from './pages/login'
 import Placeorder from './pages/placeorder'
 import Orders from './pages/orders'
 import Navbar from './components/navbar'
-import Hero from './components/Hero'
+//import Hero from './components/Hero'
 import Footer from './components/Footer'
+import SearchBar from './components/SearchBar'
 const App = () => {
   return (
     <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
       <Navbar/>
+      <SearchBar/>
       {/*<Hero/>*/}
        <Routes>
         <Route path='/' element={<Home/>}/>
